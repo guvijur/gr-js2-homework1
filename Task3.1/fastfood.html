@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <title>Задача 3. Домашнее задание 1.</title>
+</head>
+<body>
+    <div class="container">
+        <div class="payment">
+            <h4>Выберите гамбургер:</h4>
+            <hr>
+            <div class="hamburgers">
+                <div class="input">
+                    <input type="radio" name="size" id="small" value="small" checked="">
+				    <label for="small">Small</label>
+                </div>
+                <div class="input">
+                    <input type="radio" name="size" id="large" value="large">
+				    <label for="large">Large</label>
+                </div>
+            </div>
+            <hr>
+            <div class="additive">
+               <div class="additiveCheckBox">
+                    <input class="checkbox" type="checkbox" name="add" id="cheese" value="cheese">
+                    <label for="cheese">Сыр</label>
+               </div>
+               <div class="additiveCheckBox">
+                    <input class="checkbox" type="checkbox" name="add" id="salad" value="salad">
+                    <label for="salad">Салат</label>
+               </div>
+               <div class="additiveCheckBox">
+                    <input class="checkbox" type="checkbox" name="add" id="potatoes" value="potatoes">
+                    <label for="potatoes">Картошка</label>
+               </div>
+               <div class="additiveCheckBox">
+                    <input class="checkbox" type="checkbox" name="add" id="flavoring" value="flavoring">
+                    <label for="flavoring">Приправа</label>
+               </div>
+               <div class="additiveCheckBox">
+                    <input class="checkbox" type="checkbox" name="add" id="mayo" value="mayo">
+                    <label for="mayo">Майонез</label>
+               </div>
+            </div>
+            <hr>
+            <span class="btn">
+                <a class="push" id="pushMe" href="#">Рассчитать!</a>
+            </span>
+            <hr>
+            <h4>ИТОГО:</h4>
+            <div class="total">
+                <div class="totalCalc">
+                    <b>Цена:</b>
+                    <span id="cost">0</span>
+                    <span>Рублей</span>
+                </div>
+                <div class="totalCalc">
+                    <b>Калории:</b>
+                    <span id="calories">0</span>
+                    <span>кКалорий</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
